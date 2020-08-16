@@ -1,0 +1,6 @@
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/TALLER 01_listas_enlazadas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/TALLER 01_listas_enlazadas/cmake-build-debug/CMakeFiles/correrValgrind.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/TALLER 01_listas_enlazadas/cmake-build-debug/CMakeFiles/correrTests.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/TALLER 01_listas_enlazadas/cmake-build-debug/CMakeFiles/gtest.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/TALLER 01_listas_enlazadas/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/TALLER 01_listas_enlazadas/cmake-build-debug/CMakeFiles/gtest_main.dir

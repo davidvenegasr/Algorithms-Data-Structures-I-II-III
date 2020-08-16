@@ -1,0 +1,4 @@
+/home/daredevil/UBA/ALGOS2/tallerAlgoritimos2/CLASE 1_uso_clases/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritimos2/CLASE 1_uso_clases/cmake-build-debug/CMakeFiles/tests_algobot.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritimos2/CLASE 1_uso_clases/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritimos2/CLASE 1_uso_clases/cmake-build-debug/CMakeFiles/tests_ejercitacion.dir

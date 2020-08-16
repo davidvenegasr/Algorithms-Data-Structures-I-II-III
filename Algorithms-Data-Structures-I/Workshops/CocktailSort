@@ -1,0 +1,49 @@
+// Ejercicio 9 - Practica 9
+
+/*
+Escribir un programa que ejecute cocktailSort
+*/
+
+
+#include <iostream>
+#include <vector>
+
+#define UNICODE 112956
+
+using namespace std;
+
+void swap (vector <int> &v, int a, int b){
+    int temp = v[a];
+    v[a] = v[b];
+    v[b] = temp;
+    return;
+}
+
+void bubbleSort (vector <int > &v ) {
+
+    for (int i = 0; i < v.size() ; i++) {
+        for (int j = 0; j < v.size()-1-i ; j++) {
+            if (v[j] > v[j+1]){
+                swap(v, j, j+1);
+            }
+        }
+        for (int j =v.size()-1; j - i > 0; j--){
+            if (v[j] < v[j-1]){
+                swap(v, j, j-1);
+            }
+        }
+    }
+    return;
+}
+
+
+int main() {
+    vector <int> s = {1,3,4,7,2,1,45,32,65,12,54,65};
+    bubbleSort(s);
+    cout  << "{";
+    for (int i = 0; i < s.size(); i++){
+        cout  << s[i] << (i < s.size() - 1 ? ", " : "}");
+    }
+    return 0;
+}
+

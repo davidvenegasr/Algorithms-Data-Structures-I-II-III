@@ -1,0 +1,42 @@
+// Ejercicio 2 - Practica 9
+
+/*
+Se tiene una secuencia de N − 1 elementos enteros (con N ≥ 2) en la cual se encuentran los valores 0 a N − 1 ordenados de
+manera creciente y sin repetidos, a excepcion de un unico elemento faltante.
+Escribir un programa que tome como parametro una secuencia como la descripta y encuentre cual es el elemento faltante.
+El tiempo de ejecucion de peor caso del programa propuesto debe pertenecer a O(log n). Ejemplos: para 0, 1, 2, 4, 5, 6, 7i
+debe devolver 3, mientras que para {0} debe devolver 1.
+*/
+
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int buscarFaltante (std::vector <int> v) {
+    int res = -1;
+    int desde = 0;
+    int hasta = v.size();
+    while(desde < hasta && res == -1) {
+        int medio = desde + (hasta - desde) / 2;
+        if (v[medio] == medio) {
+            desde = medio;
+        } else {
+            hasta = medio;
+        }
+        if (hasta - desde == 1) {
+            res = desde + 1;
+        }
+    }
+    return res;
+}
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    std::vector <int> lista = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17};
+    std::vector <int> lista2 = {0,2};
+    int num = buscarFaltante(lista2);
+    std::cout << num << std::endl;
+    return 0;
+}

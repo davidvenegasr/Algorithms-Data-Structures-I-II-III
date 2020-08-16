@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daredevil/Documents/template_alumnos/ejercicios.cpp
+ejercicios.h
+/home/daredevil/Documents/template_alumnos/ejercicios.h
+time.h
+/home/daredevil/Documents/template_alumnos/time.h
+ctime
+-
+stdlib.h
+/home/daredevil/Documents/template_alumnos/stdlib.h
+string
+-
+math.h
+-
+iostream
+-
+
+/home/daredevil/Documents/template_alumnos/ejercicios.h
+vector
+-
+string
+-
+

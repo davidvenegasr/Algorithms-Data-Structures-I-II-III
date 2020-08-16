@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daredevil/UBA/ALGOS2/tallerAlgoritimos2/CLASE 2_definicion_clases/src/Horario.cpp
+
+/home/daredevil/UBA/ALGOS2/tallerAlgoritimos2/CLASE 2_definicion_clases/tests/test_horario_main.cpp
+../src/Horario.cpp
+/home/daredevil/UBA/ALGOS2/tallerAlgoritimos2/CLASE 2_definicion_clases/src/Horario.cpp
+iostream
+-
+

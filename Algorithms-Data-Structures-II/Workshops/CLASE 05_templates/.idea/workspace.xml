@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="solucion" targetName="base" />
+      <config projectName="solucion" targetName="ej9" />
+      <config projectName="solucion" targetName="ej8" />
+      <config projectName="solucion" targetName="ej7" />
+      <config projectName="solucion" targetName="ej6" />
+      <config projectName="solucion" targetName="ej5" />
+      <config projectName="solucion" targetName="ej4" />
+      <config projectName="solucion" targetName="ej3" />
+      <config projectName="solucion" targetName="ej2" />
+      <config projectName="solucion" targetName="ej1" />
+      <config projectName="solucion" targetName="gtest" />
+      <config projectName="solucion" targetName="gtest_main" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43d0c1b7-139d-4adf-b47f-4b899eda2737" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_base.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_base.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_diccionario.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_diccionario.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej1.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej2.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej3.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej3.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej3.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej3.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej3.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej4.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej4.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej4.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej4.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej4.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej4.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej5.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej5.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej5.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej5.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej5.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej5.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej6.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej6.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej6.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej6.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej6.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej6.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej7.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej7.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej7.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej7.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej7.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej7.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej8.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej8.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej8.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej8.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej8.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/ej8.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest_main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest_main.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest_main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest_main.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest_main.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest_main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest_main.dir/tests/gtest-1.8.1/gtest_main.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/CMakeFiles/gtest_main.dir/tests/gtest-1.8.1/gtest_main.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/algo2_labo_clase5.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/algo2_labo_clase5.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/libgtest.a" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/libgtest.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/libgtest_main.a" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/cmake-build-debug/libgtest_main.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASE 06_iteradores/src/algoritmos.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASE 06_iteradores/src/algoritmos.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TALLER 01_listas_enlazadas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TALLER 01_listas_enlazadas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TALLER 01_listas_enlazadas/cmake-build-debug/CMakeFiles/correrTests.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../TALLER 01_listas_enlazadas/cmake-build-debug/CMakeFiles/correrTests.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TALLER 01_listas_enlazadas/cmake-build-debug/CMakeFiles/gtest.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../TALLER 01_listas_enlazadas/cmake-build-debug/CMakeFiles/gtest.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TALLER 01_listas_enlazadas/cmake-build-debug/CMakeFiles/gtest_main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../TALLER 01_listas_enlazadas/cmake-build-debug/CMakeFiles/gtest_main.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TALLER 01_listas_enlazadas/src/Lista.h" beforeDir="false" afterPath="$PROJECT_DIR$/../TALLER 01_listas_enlazadas/src/Lista.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TALLER 01_listas_enlazadas/src/Lista.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TALLER 01_listas_enlazadas/src/Lista.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TALLER 01_listas_enlazadas/tests/lista_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TALLER 01_listas_enlazadas/tests/lista_tests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TALLER 02_conjunto_sobre_ABB/src/Conjunto.h" beforeDir="false" afterPath="$PROJECT_DIR$/../TALLER 02_conjunto_sobre_ABB/src/Conjunto.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TALLER 02_conjunto_sobre_ABB/src/Conjunto.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TALLER 02_conjunto_sobre_ABB/src/Conjunto.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TALLER 02_conjunto_sobre_ABB/tests/conjunto-tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TALLER 02_conjunto_sobre_ABB/tests/conjunto-tests.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Diccionario.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_diccionario.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Diccionario.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="e#43#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_multiconjunto.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#1075#2252#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10050">
+              <caret line="670" selection-start-line="670" selection-end-line="670" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Multiconjunto.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+              <folding>
+                <element signature="e#742#751#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Templates.cpp" />
+        <option value="$PROJECT_DIR$/tests/test_base.cpp" />
+        <option value="$PROJECT_DIR$/src/Templates.hpp" />
+        <option value="$PROJECT_DIR$/src/Diccionario.cpp" />
+        <option value="$PROJECT_DIR$/tests/test_diccionario.cpp" />
+        <option value="$PROJECT_DIR$/src/Diccionario.hpp" />
+        <option value="$PROJECT_DIR$/src/Multiconjunto.hpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="724" />
+    <option name="height" value="665" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="solucion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CLASE 05_templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solucion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CLASE 05_templates" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solucion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CLASE 05_templates" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Google Test.ej9">
+    <configuration name="base" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="solucion" TARGET_NAME="base" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="solucion" RUN_TARGET_NAME="base" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ej1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="solucion" TARGET_NAME="ej1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="solucion" RUN_TARGET_NAME="ej1" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ej2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="solucion" TARGET_NAME="ej2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="solucion" RUN_TARGET_NAME="ej2" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ej3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="solucion" TARGET_NAME="ej3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="solucion" RUN_TARGET_NAME="ej3" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ej4" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="solucion" TARGET_NAME="ej4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="solucion" RUN_TARGET_NAME="ej4" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ej5" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="solucion" TARGET_NAME="ej5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="solucion" RUN_TARGET_NAME="ej5" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ej6" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="solucion" TARGET_NAME="ej6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="solucion" RUN_TARGET_NAME="ej6" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ej7" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="solucion" TARGET_NAME="ej7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="solucion" RUN_TARGET_NAME="ej7" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ej8" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="solucion" TARGET_NAME="ej8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="solucion" RUN_TARGET_NAME="ej8" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ej9" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="solucion" TARGET_NAME="ej9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="solucion" RUN_TARGET_NAME="ej9" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="solucion" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="solucion" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Google Test.base" />
+      <item itemvalue="Google Test.ej1" />
+      <item itemvalue="Google Test.ej2" />
+      <item itemvalue="Google Test.ej3" />
+      <item itemvalue="Google Test.ej4" />
+      <item itemvalue="Google Test.ej5" />
+      <item itemvalue="Google Test.ej6" />
+      <item itemvalue="Google Test.ej7" />
+      <item itemvalue="Google Test.ej8" />
+      <item itemvalue="Google Test.ej9" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43d0c1b7-139d-4adf-b47f-4b899eda2737" name="Default Changelist" comment="" />
+      <created>1572062211960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572062211960</updated>
+      <workItem from="1572062220429" duration="17085000" />
+      <workItem from="1572473320360" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ej7 - 2019.10.26 at 15h 25m 28s.xml">
+      <configuration name="ej7" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ej7 - 2019.10.26 at 15h 27m 31s.xml">
+      <configuration name="ej7" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ej7 - 2019.10.26 at 15h 27m 39s.xml">
+      <configuration name="ej7" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ej7 - 2019.10.26 at 15h 27m 47s.xml">
+      <configuration name="ej7" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ej7 - 2019.10.26 at 15h 28m 47s.xml">
+      <configuration name="ej7" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ej7 - 2019.10.26 at 15h 31m 13s.xml">
+      <configuration name="ej7" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ej7 - 2019.10.26 at 15h 32m 30s.xml">
+      <configuration name="ej7" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ej7 - 2019.10.26 at 15h 32m 43s.xml">
+      <configuration name="ej7" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ej9 - 2019.10.26 at 15h 59m 25s.xml">
+      <configuration name="ej9" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ej9 - 2019.10.26 at 15h 59m 48s.xml">
+      <configuration name="ej9" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17098000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39898133" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3293718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3293718" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.3293718" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3293718" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.3293718" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39898133" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/tests/test_multiconjunto.cpp</url>
+          <line>5</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>c.size()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Templates.h" />
+    <entry file="file://$PROJECT_DIR$/src/Templates.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_base.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Diccionario.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Templates.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding>
+            <element signature="e#438#456#0" expanded="true" />
+            <element signature="e#678#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_templates.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Diccionario.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_diccionario.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Diccionario.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#43#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_multiconjunto.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#1075#2252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10050">
+          <caret line="670" selection-start-line="670" selection-end-line="670" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multiconjunto.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+          <folding>
+            <element signature="e#742#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

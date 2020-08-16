@@ -1,0 +1,3 @@
+/home/daredevil/Documents/UNIV/ALGO1/tallerAlgoritmos1-UBA/Labo10/capsula-convexa/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/daredevil/Documents/UNIV/ALGO1/tallerAlgoritmos1-UBA/Labo10/capsula-convexa/src/cmake-build-debug/CMakeFiles/capsula-convexa.dir
+/home/daredevil/Documents/UNIV/ALGO1/tallerAlgoritmos1-UBA/Labo10/capsula-convexa/src/cmake-build-debug/CMakeFiles/edit_cache.dir

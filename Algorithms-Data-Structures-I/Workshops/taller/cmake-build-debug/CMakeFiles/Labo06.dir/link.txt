@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Labo06.dir/main.cpp.o CMakeFiles/Labo06.dir/ej1/esPrimo.cpp.o CMakeFiles/Labo06.dir/ej1/Test/esPrimoTest.cpp.o  -o Labo06 lib/googletest-master/googlemock/gtest/libgtestd.a lib/googletest-master/googlemock/gtest/libgtest_maind.a lib/googletest-master/googlemock/gtest/libgtestd.a -pthread 

@@ -1,0 +1,13 @@
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/CMakeFiles/edit_cache.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/CMakeFiles/ej5_correrValgrind.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/CMakeFiles/ej3_correrValgrind.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/CMakeFiles/ej7.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/CMakeFiles/ej6.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/CMakeFiles/gtest_main.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/CMakeFiles/rebuild_cache.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/CMakeFiles/ej2_correrValgrind.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/CMakeFiles/gtest.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/CMakeFiles/ej5.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/CMakeFiles/ej1.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/CMakeFiles/ej3.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/CMakeFiles/ej4.dir

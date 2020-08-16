@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/ConexionJugador.h
+Internet.h
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/Internet.h
+string
+-
+
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/Internet.h
+list
+-
+utility
+-
+string
+-
+
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/Proxy2.cpp
+Proxy2.h
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/Proxy2.h
+
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/Proxy2.h
+ConexionJugador.h
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/ConexionJugador.h
+string
+-
+

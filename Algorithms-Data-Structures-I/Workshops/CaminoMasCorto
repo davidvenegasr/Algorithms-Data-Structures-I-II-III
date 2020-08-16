@@ -1,0 +1,48 @@
+// Ejercicio 12 - Practica 8
+
+/*
+. Sea m una matriz de N × N donde cada posicion contiene el costo de recorrer dicha posicion (dicho costo es
+positivo para todas las posiciones). Asumiendo que la ´unica forma de recorrer la matriz es avanzando hacia abajo y hacia
+la derecha, escribir un programa que calcule el mınimo costo para llegar desde la posici´on (1, 1) hasta la posicion (N, N) y
+cuyo tiempo de ejecucion de peor caso pertenezca a O(N2).
+*/
+
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int caminoMasCorto(vector<vector<int> > &m) {
+    int suma = 0;
+    const int n = m.size();
+    vector<vector<int> > distancias(n, vector<int>(n));
+    for (int j = 0; j < n; j++) { //calculamos las sumas de las posiciones de la primera fila hasta cada elemento
+        suma += m[0][j];
+        distancias[0][j] = suma;
+    }
+    suma = 0;
+    for (int i = 0; i < n; i++) { //calculamos las sumas (el costo) de le llegar a las posiciones de la primera columna (same as filas)
+        suma += m[i][0];
+        distancias[i][0] = suma;
+    }
+    for (int i = 1; i < n; i++) { // creamos matriz de distancias minimas partiendo de las sumas ya calculadas
+        for (int j = 1; j < n; j++) {
+            if (distancias[i - 1][j] <= distancias[i][j - 1]) {
+                distancias[i][j] = distancias[i - 1][j] + m[i][j];
+            } else {
+                distancias[i][j] = distancias[i][j - 1] + m[i][j];
+            }
+        }
+    }
+    return distancias[n - 1][n - 1];
+}
+
+int main() {
+    // vector<vector<int> > m = {{1,2,0},{0,2,1},{6,7,8}}; // = 12
+    vector<vector<int> > m = {{2, 0, 5},
+                              {9, 4, 7},
+                              {1, 3, 2}}; // = 11
+    cout << "El Camino mas corto tiene distancia = " << caminoMasCorto(m) << endl;
+    return 0;
+}

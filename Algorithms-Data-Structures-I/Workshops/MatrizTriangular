@@ -1,0 +1,48 @@
+// Ejercicio 8 - Practica 8
+
+/*
+Una matriz cuadrada se dice triangular si todos los elementos por debajo de la diagonal son iguales a cero.
+a) Escribir un programa que calcule el determinante de una matriz triangular. Recordar que el determinante de una matriz
+triangular es el producto de los elementos de su diagonal.
+b) Escribir un programa que determine si una matriz de N × N es o no triangular.
+*/
+
+
+#include <iostream>
+#include <vector>
+
+
+using namespace std;
+
+int determinante (vector<vector <int> >  mat) {
+    int res = 1;
+    for (int i = 0; i < mat.size(); i++){
+        res = res * mat[i][i];
+    }
+    return res;
+}
+
+bool triangular (vector<vector <int> > mat) {
+    bool res = true;
+    int i = 1;
+    while (i < mat.size() && res) {
+        int j = 0;
+        while (j < i) {
+            res = res && (mat[i][j] == 0);
+            j++;
+        }
+        i++;
+    }
+    return res;
+}
+
+
+int main() {
+    vector <vector <int> > s = {{1,0,0},{0,2,0},{0,0,0}};
+    if (triangular(s))
+        cout << "Si" << " y el determinante es: " << determinante(s) << "." << endl;
+    else
+        cout << "Nope" << endl;
+    return 0;
+}
+

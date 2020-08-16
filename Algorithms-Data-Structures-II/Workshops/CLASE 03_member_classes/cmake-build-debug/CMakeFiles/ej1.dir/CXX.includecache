@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daredevil/UBA/ALGOS2/tallerAlgoritimos2/CLASE 03_member-classes/src/Periodo.cpp
+Periodo.h
+/home/daredevil/UBA/ALGOS2/tallerAlgoritimos2/CLASE 03_member-classes/src/Periodo.h
+
+/home/daredevil/UBA/ALGOS2/tallerAlgoritimos2/CLASE 03_member-classes/src/Periodo.h
+

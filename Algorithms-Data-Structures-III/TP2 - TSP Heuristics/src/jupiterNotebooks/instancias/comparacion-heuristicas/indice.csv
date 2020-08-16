@@ -1,0 +1,6 @@
+dataset,instancia,n,W,archivo
+berlin52,berlin52,52,7542,instancias/comparacion-heuristicas/berlin52.txt
+eil51,eil51,51,426,instancias/comparacion-heuristicas/eil51.txt
+eil76,eil76,76,538,instancias/comparacion-heuristicas/eil76.txt
+kroA100,kroA100,100,21282,instancias/comparacion-heuristicas/kroA100.txt
+st70,st70,70,675,instancias/comparacion-heuristicas/st70.txt

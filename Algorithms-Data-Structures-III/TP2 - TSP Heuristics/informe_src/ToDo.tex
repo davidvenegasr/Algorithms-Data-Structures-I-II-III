@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+\hspace{-2.5pt}}
+\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
+
+\begin{document}
+\title{To Do list}
+\date{}
+\maketitle
+
+Objetivos del TP
+
+\begin{itemize}
+  \item Objetivos Enunciado 
+
+  \begin{todolist}
+    \item Describir el problema a resolver.
+    \begin{todolist}
+      \item Dar ejemplos y soluciones.
+    \end{todolist}
+    \item Explicar de forma clara, sencilla, estructurada y concisa, las ideas desarrolladas para la resolucion del problema. 
+    \begin{todolist}
+      \item Usar pseudocodigo y lenguaje coloquial.
+      \item Demostrar correctitud.
+    \end{todolist}
+    \item Deducir cota de complejidad temporal y justificad para cada algoritmo.
+    \item Dar un codigo fuente claro que implemente la solucion propuesta.
+    \item Realizar una experimentaci´on computacional para medir la performance de los programas implementados, comparando el desempe˜no entre ellos.
+    \begin{todolist}
+      \item Hacer casos de test.
+    \end{todolist}
+    
+  \end{todolist}
+
+\end{itemize}
+\end{document}
+
+% \item[\done]
+% \item[\wontfix]

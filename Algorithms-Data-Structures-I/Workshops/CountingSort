@@ -1,0 +1,41 @@
+// Ejercicio 6 - Practica 9
+
+/*
+Escribir un programa que devuelva la versi´on ordenada de un string s con costo de ejecuci´on perteneciente a O(|s|). Por
+ejemplo, si s = “hola Homero!”, el resultado deber´a ser ’!Haehlmooor”’. Suponer que se cuenta con la funcion ord(c) que
+dado un caracter indica su codigo en el standard Unicode1.
+El estandard Unicode 7.0 contiene 112956 caracteres
+*/
+
+
+#include <iostream>
+#include <vector>
+
+#define UNICODE 112956
+
+using namespace std;
+
+int ord (char a) {
+    return (int) a;
+}
+
+string enOrden(string &s) {
+    string nuevo;
+    for (int i = 0; i < UNICODE; i++) {
+        for (int j = 0; j <s.size(); j++) {
+            if (i == ord(s[j])){
+                nuevo.push_back(s[j]);
+            }
+        }
+    }
+    return nuevo;
+}
+
+
+int main() {
+    string s = "Hello, World!";
+    cout << s << std::endl;
+    cout << enOrden(s) << endl; // O (UNICODE*n) pero como UNICODE es una constante esto es O(n)
+    return 0;
+}
+

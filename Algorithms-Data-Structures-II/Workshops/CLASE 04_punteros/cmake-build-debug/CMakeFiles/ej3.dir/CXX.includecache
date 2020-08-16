@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/ConexionJugador.h
+Internet.h
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/Internet.h
+string
+-
+
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/Internet.h
+list
+-
+utility
+-
+string
+-
+
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/Proxy.h
+ConexionJugador.h
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/ConexionJugador.h
+string
+-
+
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/Proxy2.h
+ConexionJugador.h
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/ConexionJugador.h
+string
+-
+
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/SistemaDeMensajes.cpp
+SistemaDeMensajes.h
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/SistemaDeMensajes.h
+
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/SistemaDeMensajes.h
+ConexionJugador.h
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/ConexionJugador.h
+string
+-
+Proxy.h
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/Proxy.h
+Proxy2.h
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 04_punteros/src/Proxy2.h
+

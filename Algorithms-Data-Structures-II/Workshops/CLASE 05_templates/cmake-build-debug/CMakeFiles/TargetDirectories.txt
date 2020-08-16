@@ -1,0 +1,14 @@
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 05_templates/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 05_templates/cmake-build-debug/CMakeFiles/ej8.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 05_templates/cmake-build-debug/CMakeFiles/ej7.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 05_templates/cmake-build-debug/CMakeFiles/ej6.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 05_templates/cmake-build-debug/CMakeFiles/ej5.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 05_templates/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 05_templates/cmake-build-debug/CMakeFiles/ej9.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 05_templates/cmake-build-debug/CMakeFiles/gtest.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 05_templates/cmake-build-debug/CMakeFiles/base.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 05_templates/cmake-build-debug/CMakeFiles/gtest_main.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 05_templates/cmake-build-debug/CMakeFiles/ej2.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 05_templates/cmake-build-debug/CMakeFiles/ej4.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 05_templates/cmake-build-debug/CMakeFiles/ej1.dir
+/home/daredevil/UBA/ALGOS2/tallerAlgoritmos2/CLASE 05_templates/cmake-build-debug/CMakeFiles/ej3.dir

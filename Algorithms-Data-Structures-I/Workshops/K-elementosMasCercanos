@@ -1,0 +1,52 @@
+//Ejercicio 7 - Practica 9 
+
+/*
+Escribir un programa que, dado una secuencia de enteros v y dos enteros e y k (con k <= |v|), devuelva los k numeros m´as
+cercanos a e. En caso de empates, considerar el de menor valor. Calcular el tiempo de ejecucion de peor caso.
+*/
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+void swapEnMatriz(vector<vector<int>> &m, int i, int j) {  //O(1)
+    vector<int> aux = m[i];
+    m[i] = m[j];
+    m[j] = aux;
+}
+
+void mostrarVector(vector<int> v) { // n filas y m columnas
+    cout << "{";
+    for (int i = 0; i < v.size(); i++) {  // O(n)
+        cout << v[i] << (i < v.size() - 1 ? ", " : "}");
+    }
+}
+
+vector<int> numerosCercanos(vector<int> v, int e, int k) {
+    vector<vector<int> > absE(v.size(), vector<int>(2)); // O(n*2) -- Creamos vector que almacena distancia a e, y posicion del elemento
+    for (int i = 0; i < v.size(); i++) { // O(n)
+        absE[i][0] = abs(e - v[i]);
+        absE[i][1] = i;
+    }
+    for (int i = 0; i < absE.size() - 1; i++) {  //Ordenamos vector por distancia en O (n^2)
+        for (int j = i + 1; j < absE.size(); j++) { 
+            if (absE[j][0] < absE[i][0]) {
+                swapEnMatriz(absE, i, j);
+            }
+        }
+    }
+    vector<int> res;
+    for (int i = 0; i < k; i++) {      
+        res.push_back(v[absE[i][1]]); // tomamos las primeras k distancias a e
+    }
+
+    return res;
+}
+
+int main() {
+    vector<int> v = {3, 2, 9, 7, 5, 4, 6, 1, 10};
+    vector<int> res = numerosCercanos(v, 8, 9); // O (n^2)
+    mostrarVector(res);
+    return 0;
+}

@@ -1,0 +1,37 @@
+// Ejercicio 14 - Practica 8
+
+/*
+Dada una matriz de booleanos de n filas y m columnas con n impar. Se sabe que hay exactamente una fila que no est´a
+repetida, y el resto se encuentra exactamente dos veces en la matriz.
+a) Escribir un programa que devuelva un vector con los valores de la fila que no se repite. ¿Cu´al es su tiempo de ejecuci´on
+de peor caso descripto?
+b) ¿Es posible un programa que recorra cada casillero de la matriz s´olo una vez? En caso de no haberlo resuelto con esta
+restricci´on, modificar el programa para que la cumpla. ¿Cu´al es su tiempo de ejecuci´on de peor caso ?
+c) La soluci´on al punto anterior, ¿utiliza vectores auxiliares?, en caso que lo haga, escribir un programa que no los necesite.
+*/
+
+
+#include <iostream>
+#include <vector>
+
+
+using namespace std;
+
+vector <int> filaSinRepetidos (vector <vector <int>> v) {
+    for (int j = 0; j < v[0].size(); ++j) {
+        for (int i = 0; i < v.size() - 1; i++) {
+            v[0][j] = v[0][j] ^ v[i+1][j];
+        }
+    }
+    return v[0];
+}
+
+int main() {
+    vector <vector <int> > s = {{1,0,0},{0,1,0},{1,0,0}};
+    vector <int> result = filaSinRepetidos(s);
+    cout << "{";
+    for (int i = 0; i < result.size(); i++) {  // O(n)
+        cout << result[i] << (i < result.size() - 1 ? ", " : "}");
+    }
+}
+
